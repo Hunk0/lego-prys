@@ -25,7 +25,8 @@ const useStyles = makeStyles((theme) => ({
 					width: '100vw !important',
 					display: 'flex !important',
 					zIndex: 5,
-  				position: 'absolute'
+  				position: 'absolute',
+					marginBottom: '5px'
       },
 			idea: {
 
@@ -44,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
           left: 0,
 					top: 0,
           //background: 'linear-gradient(90deg, #25ade4 0%, #6356fd 100%)',
-          height: '100vh',
+          height: '109vh',
           //marginTop: '-74px !important',
           //zIndex: -1,
           marginLeft: '0 !important',
