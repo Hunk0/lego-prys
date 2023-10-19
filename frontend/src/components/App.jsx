@@ -17,13 +17,12 @@ const useStyles = makeStyles((theme) => ({
       root: {
           //paddingTop: 2,
 					height: '100vh !important',
-					width: '100vw !important',
 					//display: 'flex !important'
       },
 			container: {
           paddingTop: 2,
 					height: '100vh !important',
-					width: '100vw !important',
+					width: '90vw !important',
 					display: 'flex !important',
 					zIndex: 5,
   				position: 'absolute',
@@ -34,8 +33,6 @@ const useStyles = makeStyles((theme) => ({
       },
 			video: {
 					height: '100vh !important',
-					width: '100vw !important',
-					position: 'initial',
 					zIndex: -2,
       },
       background: {
