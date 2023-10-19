@@ -17,6 +17,7 @@
     "react": "^18.2.0",
     "react-3d-viewer": "^1.0.12",
     "react-dom": "^18.2.0",
+    "react-image-carousel-viewer": "0.0.11",
     "react-scripts": "5.0.1",
     "react-three-fiber": "5.3.19",
     "react-youtube-background": "^1.0.0",

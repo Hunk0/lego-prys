@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import Button from '@mui/material/Button';
 import ElementData from './ElementData'
+import Carrousel from './Carrousel'
 import YoutubeBackground from 'react-youtube-background'
 import img from '../files/img/lego-png-46633.png'
 import list from '../files/list.json'
@@ -123,6 +124,12 @@ function App() {
 										<Typography variant="body2" gutterBottom>
 											{idea.info}
 										</Typography>
+										<Divider />
+										<br/>
+										<Typography variant="body2" gutterBottom>
+											<Carrousel imageslist={idea.images}/>
+										</Typography>
+										<br/><br/>
 										<Button href={require(`../files/legofiles/${idea.filename}`)}>Descargar</Button>
 								</Grid>
 						</Grid>
