@@ -1,0 +1,44 @@
+{
+    "ideas": [
+        {
+            "id": 1,
+            "nombre": "Explorador",
+            "info": "Este robot esta diseñado para la exploracion de territorios dificiles",
+            "modelname": "explorador.obj",
+            "images": [
+                "explorador.PNG"
+            ],
+            "filename": "Explorador.lxf"
+        },
+        {
+            "id": 2,
+            "nombre": "Escavadora",
+            "info": "Este es un robot diseñado para poder escavar en zonas dificiles de acceder",
+            "modelname": "escavadora.obj",
+            "images": [
+                "escavadora.PNG"
+            ],
+            "filename": "escabadora lego.lxf"
+        },
+        {
+            "id": 3,
+            "nombre": "Nave espacial",
+            "info": "Esta nave esta diseñada para alcanzar la velocidad de la luz",
+            "modelname": "spaceship.obj",
+            "images": [
+                "spaceship.PNG"
+            ],
+            "filename": "spaceship lego.lxf"
+        },
+        {
+            "id": 4,
+            "nombre": "Escaba pinzas",
+            "info": "Esta maquina ademas de poder escavar es capas de transportar diferentes objetos gracias a sus potentes pinzas",
+            "modelname": "escabapinzas.obj",
+            "images": [
+                "excavapinzas.PNG", "excavapinzas2.PNG"
+            ],
+            "filename": "escabapinzas.lxf"
+        }
+    ]
+}

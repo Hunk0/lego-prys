@@ -1,10 +1,15 @@
 import React from 'react'
 import {OBJModel} from 'react-3d-viewer'
-//import xd from '../../files/models/explorador/explorador.obj'
+import explorerobj from '../files/models/explorador.obj'
 
-function ElementData() {
+function ElementData({filename}) {
   return (
-    <OBJModel src="../../files/models/explorador/explorador.obj" texPath=""/>
+    <div>
+        <OBJModel 
+            src={require(`../files/models/${filename}`)} 
+            texPath=""
+        />
+    </div>
   )
 }
 
